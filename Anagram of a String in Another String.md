@@ -5,10 +5,10 @@ For more details of the challenge, [Click here][https://edabit.com/challenge/LF6
 ```
 from itertools import permutations
 def ana_str_str(needle, haystack):
-    count=0
+	count=0
 	for i in list(permutations(needle)):
 		count += haystack.count("".join(j for j in i))
-        if count > 0: break
+		if count > 0: break
 	if count > 0: return True
 	else: return False
 ```
