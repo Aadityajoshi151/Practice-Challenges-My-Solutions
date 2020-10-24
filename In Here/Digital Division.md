@@ -10,6 +10,7 @@ Given an integer `n`, implement a function that returns:
 - If every test is true, a string `"Perfect"`.
 - If some test is true, the number of true tests (`1` or `2`).
 - If every test is false, a string `"Indivisible"`.
+
 For more details of the challenge, [Click here][https://edabit.com/challenge/NWR5BK4BYqDkumNiB]
 ## ✏️My Solution:
 ```
